@@ -4,7 +4,7 @@ import path from 'node:path'
 
 export default defineConfig({
   plugins: [react()],
-  base: process.env.GH_PAGES ? '/react-mrt-demo/' : '/',
+  base: '/employees-table/',
   resolve: {
     alias: {
       '@app': path.resolve(__dirname, 'src/app'),
