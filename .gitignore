@@ -1,0 +1,24 @@
+# deps / builds
+node_modules/
+.pnp.*         # если pnp
+.yarn/*        # Yarn 4, кроме релевантных
+!/.yarn/releases/
+!/.yarn/plugins/
+!/.yarn/sdks/
+!/.yarn/patches/
+dist/
+build/
+coverage/
+.vite/
+.next/
+out/
+
+# env / misc
+.env
+.env.*.local
+.DS_Store
+*.log
+*.local
+*.swp
+.idea/
+.vscode/

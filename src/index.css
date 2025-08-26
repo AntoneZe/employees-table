@@ -1,0 +1,15 @@
+:root {
+  --border-color: color-mix(in oklab, var(--mantine-color-dark-5) 60%, transparent);
+}
+
+.mantine-Paper-root { border-color: var(--border-color) !important; }
+
+.mantine-Table-thead tr th {
+  border-bottom: 1px solid var(--border-color);
+}
+
+.mantine-Table-tbody tr td {
+  border-bottom: 1px solid color-mix(in oklab, var(--mantine-color-dark-6) 60%, transparent);
+}
+
+.mantine-Paper-root { overflow: hidden; }
